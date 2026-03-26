@@ -168,7 +168,7 @@ def imprimir_resultados(resultado):
 # MAIN
 # =========================
 def main():
-    notebook_path = "tarea/tarea.ipynb"
+    notebook_path = "tarea/enunciado.ipynb"
 
     ejecuta, mensaje = ejecutar_notebook(notebook_path)
     analisis = analizar_notebook(notebook_path)
